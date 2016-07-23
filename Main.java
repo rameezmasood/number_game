@@ -14,10 +14,11 @@ public class Main {
         int input_user = input.nextInt();
         if (input_user == 1) {
             game my_game = new game();
-            System.out.println("Input Number"+my_game.getInput_number());
-            System.out.println("Random Number"+my_game.getRandom_number());
+            my_game.start_game();
+            /*System.out.println("Input Number"+my_game.getInput_number());
+            System.out.println("Random Number"+my_game.getRandom_number());*/
         } else if (input_user == 2) {
-            System.out.println("Thank you for play game");
+            System.out.println("Thank you for play this game.");
         } else {
             System.out.println("You have enter invalid number program has been terminated.");
         }
